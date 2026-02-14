@@ -1,0 +1,8 @@
+{
+  "packages": {
+    "hello-world": {
+      "path": "/home/fhde/project/nvpm/hello-world.nv",
+      "version": "1.0.0"
+    }
+  }
+}
