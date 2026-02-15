@@ -1,8 +1,8 @@
 {
   "packages": {
-    "hello-world": {
-      "path": "/home/fhde/project/nvpm/hello-world.nv",
-      "version": "1.0.0"
+    "test-pkg": {
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/FHDE-code/nvpm/refs/heads/main/test-pkg-1.0.0.nv"
     }
   }
 }
