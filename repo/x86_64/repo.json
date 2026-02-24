@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-02-23T23:48:10+00:00",
+  "packages": [
+    {
+      "architecture": "x86_64",
+      "artifact": "cami-ai-0.1.0.nv",
+      "dependencies": [
+        "nv-core",
+        "noova-ai-terminal"
+      ],
+      "description": "Cami AI helper commands and aliases",
+      "id": "cami-ai",
+      "sha256": "08d1e8b467b634622b0f9f6aa1cc99629a45ab907320bf8e3a1ad796e473bb4e",
+      "size": 785,
+      "version": "0.1.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "cami-lang-0.1.0.nv",
+      "dependencies": [
+        "nv-core",
+        "cami-ai"
+      ],
+      "description": "CAMI language runtime/transpiler toolkit",
+      "id": "cami-lang",
+      "sha256": "627aee56f35b44442e919f219e12cbe8bf76a1e3dc16514909f9aff6fec2798c",
+      "size": 9720,
+      "version": "0.1.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "noova-ai-terminal-0.2.0.nv",
+      "dependencies": [
+        "nv-core"
+      ],
+      "description": "Cami AI terminal entrypoint for Noova",
+      "id": "noova-ai-terminal",
+      "sha256": "02bb1132e2466887ba0f0f0ce3b49445e73d764beb847d03a5c5e5f9268656ec",
+      "size": 541,
+      "version": "0.2.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "noova-appsuite-0.1.0.nv",
+      "dependencies": [
+        "nv-core"
+      ],
+      "description": "Noova app suite launchers and registry",
+      "id": "noova-appsuite",
+      "sha256": "3f96492f7de6ac6e1a542369f54fe05864ad3b1288048a62aaec6b7c8fb718ed",
+      "size": 12855,
+      "version": "0.1.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "noova-code-audit-0.2.0.nv",
+      "dependencies": [
+        "nv-core"
+      ],
+      "description": "Defensive static source audit helper",
+      "id": "noova-code-audit",
+      "sha256": "a448285cd62c0aa100149cf78df3b7fcc4f291893fcbd823ca0faeb41fe93bd5",
+      "size": 524,
+      "version": "0.2.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "noova-devkit-0.2.0.nv",
+      "dependencies": [
+        "nv-core",
+        "noova-ai-terminal",
+        "cami-ai",
+        "cami-lang",
+        "noova-ide",
+        "noova-code-audit",
+        "noova-pentest-suite",
+        "noova-xpro"
+      ],
+      "description": "Developer bootstrap shortcuts and checks",
+      "id": "noova-devkit",
+      "sha256": "1fdb586bc3e2a0f7a9270fdc9ec8fd5e9720161dd36d91eaa211d7382b357b7b",
+      "size": 771,
+      "version": "0.2.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "noova-ide-0.1.0.nv",
+      "dependencies": [
+        "nv-core",
+        "cami-ai",
+        "cami-lang"
+      ],
+      "description": "Noova IDE (Rust) with Cami AI and Noova OS integration",
+      "id": "noova-ide",
+      "sha256": "0e0b547c43ed922b2b30e589c4c9824f63963f5bcf48314dc2fd1cc8c3c19bbf",
+      "size": 233083,
+      "version": "0.1.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "noova-pentest-suite-0.1.0.nv",
+      "dependencies": [
+        "nv-core",
+        "noova-code-audit",
+        "noova-ai-terminal",
+        "cami-ai"
+      ],
+      "description": "Defensive pentest toolkit for local/dev audits",
+      "id": "noova-pentest-suite",
+      "sha256": "21fece7a01d7e0765b60a2b2f6365779c74d9087fbde03903d89374228594268",
+      "size": 934,
+      "version": "0.1.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "noova-xfce-glass-0.2.0.nv",
+      "dependencies": [
+        "nv-core"
+      ],
+      "description": "Transparent XFCE defaults and shortcut profile",
+      "id": "noova-xfce-glass",
+      "sha256": "05acf8aa416071e17d26b64a3b8aa44d51649ed08e9ccb7fa1f532ab3d33ef6f",
+      "size": 1045,
+      "version": "0.2.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "noova-xpro-0.1.0.nv",
+      "dependencies": [
+        "nv-core"
+      ],
+      "description": "Noova Xpro browser launcher integration",
+      "id": "noova-xpro",
+      "sha256": "2c2593d756fbe75df4bdddb643ee09a1249b3157be667cd7b2e9aa8d62529b2d",
+      "size": 817,
+      "version": "0.1.0"
+    },
+    {
+      "architecture": "x86_64",
+      "artifact": "nv-core-0.2.0.nv",
+      "dependencies": [],
+      "description": "Noova core filesystem defaults",
+      "id": "nv-core",
+      "sha256": "d02364a05f221565e26bcd2bb81dc8c41e774341241bb9664406b102f14be9f9",
+      "size": 535,
+      "version": "0.2.0"
+    }
+  ]
+}
